@@ -5,6 +5,9 @@ This project builds an automated, end-to-end relational data pipeline using **Mi
 
 By parsing unstructured XBRL datasets across 8 consecutive fiscal quarters, the pipeline extracts key US-GAAP accounting metrics and deconstructs **Return on Equity (ROE)** for **Apple Inc. (AAPL)**, **Microsoft Corp. (MSFT)**, and **Tesla, Inc. (TSLA)** using the **3-Step DuPont Identity Framework**.
 
+**Data Source:** [SEC Financial Statement Data Sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets) — quarterly flat-file datasets published by the U.S. Securities and Exchange Commission, containing structured, machine-readable XBRL financial statement data submitted by public filers.
+
+
 ---
 
 ## 🏗️ Financial Framework
