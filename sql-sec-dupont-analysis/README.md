@@ -22,7 +22,7 @@ $$\text{ROE} = \left( \frac{\text{Net Income}}{\text{Revenue}} \right) \times \l
 
 ## 📊 Consolidated Analysis Findings (Annual FY Reports)
 
-| Company | Fiscal Year | Period End | Net Income ($B) \vert{} Revenue ($B) | Total Assets ($B) \vert{} Total Equity ($B) | Net Profit Margin | Asset Turnover | Equity Multiplier | Calculated ROE |
+| Company | Fiscal Year | Period End | Net Income ($B) | Revenue ($B) | Total Assets ($B) | Total Equity ($B) | Net Profit Margin | Asset Turnover | Equity Multiplier | Calculated ROE |
 
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Apple Inc.** | 2025 | 2025-09-30 | \$112.01 | \$416.16 | \$359.24 | \$93.57 | **26.92%** | **1.1584x** | **3.8394x** | **119.71%** |
