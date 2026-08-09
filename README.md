@@ -63,7 +63,7 @@ Each project below includes a short summary. Click through to the repo for full 
 > Executive Power BI dashboard evaluating the gap between CMS Medicare inpatient gross billed charges and actual settlement payouts across U.S. hospitals.
 
 <div align="center">
-  <img src="assets/screenshots/powerbi-dashboard.png" alt="CMS Inpatient Hospital Reimbursement & Chargemaster Analytics" width="600"/>
+  <img src="medicare-reimbursement-powerbi/powerbi-dashboard.png" alt="CMS Inpatient Hospital Reimbursement & Chargemaster Analytics" width="600"/>
 </div>
 
 - **Goal:** What decision-makers needed visibility into, and why.
