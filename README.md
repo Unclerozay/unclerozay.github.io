@@ -38,32 +38,32 @@ Each project below includes a short summary. Click through to the repo for full 
 
 ---
 
-### 2️⃣ Global Healthcare Impact Analysis (SQL)
-**`📁 /sql-global-healthcare`**
+### 2️⃣ SEC EDGAR Corporate Financial Analysis & DuPont ROE Pipeline (SQL)
+**`📁 /sql-sec-dupont-analysis`**
 
-> Advanced relational queries on Kaggle epidemiology datasets to track rolling metrics and transmission trends.
+> Dynamic T-SQL data pipeline processing 28M+ SEC EDGAR XBRL records to model corporate financial statements and deconstruct Return on Equity (ROE) using the 3-Step DuPont Identity.
 
 <div align="center">
-  <img src="assets/sql-preview.png" alt="Global Healthcare Impact Analysis Preview" width="600"/>
+  <img src="assets/screenshots/sql-screenshot.png" alt="SEC EDGAR Financial Analysis Preview" width="600"/>
 </div>
 
-- **Goal:** What dataset/database were you querying, and what business question did it answer?
-- **Approach:** Window functions, CTEs, and deep joins to engineer data pipelines tracking rolling metrics and transmission trends.
-- **Outcome:** What did the queries reveal? Tie it to a decision or metric where possible.
+- **Goal:** Modeled 8 quarters (~28 million rows) of raw, unstructured SEC EDGAR flat files in SQL Server (SSMS) to evaluate profitability, asset efficiency, and financial leverage for Apple, Microsoft, and Tesla.
+- **Approach:** Engineered automated bulk ingestion loops, clustered index optimizations, and CTE-driven conditional aggregation to pivot vertical US-GAAP accounting tags and deduplicate restated filings via `ROW_NUMBER()` window functions.
+- **Outcome:** Uncovered that Apple's >110% ROE is primarily driven by aggressive share repurchases elevating its Equity Multiplier (~3.84x–4.38x), whereas Microsoft's ROE (~29.65%) is powered by high net profit margins (~36%), and Tesla's lower ROE (~4.62%) reflects manufacturing capital intensity.
 
-**Skills demonstrated:** `SQL` `Window Functions` `CTEs` `Query Optimization` `Data Modeling`
+**Skills demonstrated:** `SQL Server (SSMS)` `T-SQL` `Window Functions` `CTEs` `Clustered Indexing` `Dynamic SQL` `DuPont Financial Analysis`
 
-🔗 [View Project](#)
+🔗 [View Project](sql-sec-dupont-analysis)
 
 ---
 
-### 3️⃣ Enterprise Talent Retention Dashboard (Power BI)
-**`📁 /powerbi-talent-retention`**
+### 3️⃣ CMS Medicare Inpatient Hospital Pricing & Reimbursement Analytics (Power BI)
+**`📁 /medicare-reimbursement-powerbi`**
 
-> End-to-end business intelligence solution using Kaggle HR infrastructure data, tracking workforce optimization and predictive turnover metrics.
+> Executive Power BI dashboard evaluating the gap between CMS Medicare inpatient gross billed charges and actual settlement payouts across U.S. hospitals.
 
 <div align="center">
-  <img src="assets/powerbi-preview.png" alt="Enterprise Talent Retention Dashboard Preview" width="600"/>
+  <img src="assets/screenshots/powerbi-dashboard.png" alt="CMS Inpatient Hospital Reimbursement & Chargemaster Analytics" width="600"/>
 </div>
 
 - **Goal:** What decision-makers needed visibility into, and why.
@@ -72,7 +72,7 @@ Each project below includes a short summary. Click through to the repo for full 
 
 **Skills demonstrated:** `Power BI` `DAX` `Data Modeling` `Dashboard Design`
 
-🔗 [View Project](#)
+🔗 [View Project](medicare-reimbursement-powerbi)
 
 ---
 
